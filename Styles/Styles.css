@@ -1,0 +1,943 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: #0E0E10;
+}
+
+.header{
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #18181B;
+    width: 100%;
+    height: 50px;
+    z-index: 2;
+}
+
+.header .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.header .navbar #container1 img{
+    width: 25px;
+}
+
+.header .navbar #container2 p{
+    color: #EEEEF0;
+    font-family: Roobert, Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 17px;
+    padding-left: 28px;
+    padding-bottom: 9px;
+}
+
+.header .navbar #container3 img{
+    width: 16px;
+    margin-left: 30px;
+}
+
+.header #container4 #buscador{
+    background-color: #18181B;
+    width: 320px;
+    padding: 8px;
+    padding-right: 150px;
+    border-radius: 6px 0 0 5px;
+    border-style: solid;
+    outline: none;
+    color: rgb(255, 255, 255);
+} 
+
+.header #container4 img{
+    width: 20px;
+}
+
+.header #container5 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    gap: 15px;
+    margin-right: 15px;
+}
+
+.header #container5 ul .svg1{
+    fill: #EFEFF1;
+}
+
+.header #container5 ul .svg2{
+    fill: #EFEFF1;
+}
+
+.header #container5 .boton1{
+        background-color: #35353B;
+        border: none;
+        text-decoration: 0;
+        border-radius: 5px;
+        font-size: 13px;
+        font-style: normal;
+        font-family: sans-serif;
+        font-weight: 600;
+        line-height: 20px;
+        color: rgb(255, 255, 255);
+        padding: 4px 8px 5px;
+}
+
+.header #container5 .boton2{
+    background-color: #772CE8;
+        border: none;
+        text-decoration: 0;
+        border-radius: 5px;
+        font-size: 13px;
+        font-style: normal;
+        font-family: sans-serif;
+        font-weight: 600;
+        line-height: 20px;
+        color: rgb(255, 255, 255);
+        padding: 4px 8px 5px;
+}
+
+.container6{
+    display: flex;
+}
+
+.container6 .aside{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: #1F1F23;
+    height: 100%;
+    width: 11%;
+    z-index: 1;
+}
+
+.container6 .container7 h3{
+    color: rgb(239, 239, 241);
+    padding-top: 65px;
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.container6 .users{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container6 .users #users1 img{
+    display: flex;
+    width: 35px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.container6 .users #texto{
+    margin-top: 12px;
+    margin-right: 75px;
+}
+
+.container6 .users #texto .alexelcapo{
+    color: rgb(222, 222, 227);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.container6 .users #texto .alexelcapo1{
+    color: rgb(173, 173, 184);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.container6 .users #punto-rojo1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.container6 .users #punto-rojo1 .punto-rojo{
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.container6 .users #punto-rojo1 .alexelcapo2{
+    color: rgb(222, 222, 227);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 15px;
+}
+
+.container6 .users2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container6 .users2 #users2 img{
+    display: flex;
+    width: 35px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.container6 .users2 #texto2{
+    margin-top: 12px;
+    margin-right: 75px;
+}
+
+.container6 .users2 #texto2 .xocas{
+    color: rgb(222, 222, 227);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.container6 .users2 #texto2 .xocas1{
+    color: rgb(173, 173, 184);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.container6 .users2 #punto-rojo2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.container6 .users2 #punto-rojo2 .punto-rojo1{
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.container6 .users2 #punto-rojo2 .xocas2{
+    color: rgb(222, 222, 227);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 15px;
+}
+
+.container6 .users3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.container6 .users3 #users3 img{
+    display: flex;
+    width: 35px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.container6 .users3 #texto3{
+    margin-top: 12px;
+    margin-right: 75px;
+}
+
+.container6 .users3 #texto3 .illojuan{
+    color: rgb(222, 222, 227);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.container6 .users3 #texto3 .illojuan1{
+    color: rgb(173, 173, 184);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.container6 .users3 #punto-rojo3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.container6 .users3 #punto-rojo3 .punto-rojo2{
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.container6 .users3 #punto-rojo3 .illojuan2{
+    color: rgb(222, 222, 227);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 15px;
+}
+
+.container6 .users4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container6 .users4 #users4 img{
+    display: flex;
+    width: 35px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.container6 .users4 #texto4{
+    margin-top: 12px;
+    margin-right: 75px;
+}
+
+.container6 .users4 #texto4 .thegrefg{
+    color: rgb(222, 222, 227);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.container6 .users4 #texto4 .thegrefg1{
+    color: rgb(173, 173, 184);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.container6 .users4 #punto-rojo4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.container6 .users4 #punto-rojo4 .punto-rojo3{
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.container6 .users4 #punto-rojo4 .thegrefg2{
+    color: rgb(222, 222, 227);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 15px;
+}
+
+.container6 .users5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container6 .users5 #users5 img{
+    display: flex;
+    width: 35px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.container6 .users5 #texto5{
+    margin-top: 12px;
+    margin-right: 75px;
+}
+
+.container6 .users5 #texto5 .mangel{
+    color: rgb(222, 222, 227);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.container6 .users5 #texto5 .mangel1{
+    color: rgb(173, 173, 184);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.container6 .users5 #punto-rojo5{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.container6 .users5 #punto-rojo5 .punto-rojo4{
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.container6 .users5 #punto-rojo5 .mangel2{
+    color: rgb(222, 222, 227);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 15px;
+}
+
+.container6 .users6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container6 .users6 #users6 img{
+    display: flex;
+    width: 35px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.container6 .users6 #texto6{
+    margin-top: 12px;
+    margin-right: 75px;
+}
+
+.container6 .users6 #texto6 .knekro{
+    color: rgb(222, 222, 227);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.container6 .users6 #texto6 .knekro1{
+    color: rgb(173, 173, 184);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.container6 .users6 #punto-rojo6{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.container6 .users6 #punto-rojo6 .punto-rojo5{
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.container6 .users6 #punto-rojo6 .knekro2{
+    color: rgb(222, 222, 227);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 15px;
+}
+
+.container6 .users7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container6 .users7 #users7 img{
+    display: flex;
+    width: 35px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.container6 .users7 #texto7{
+    margin-top: 12px;
+    margin-right: 75px;
+}
+
+.container6 .users7 #texto7 .mixwell{
+    color: rgb(222, 222, 227);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.container6 .users7 #texto7 .mixwell1{
+    color: rgb(173, 173, 184);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.container6 .users7 #punto-rojo7{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.container6 .users7 #punto-rojo7 .punto-rojo6{
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.container6 .users7 #punto-rojo7 .mixwell2{
+    color: rgb(222, 222, 227);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 15px;
+}
+
+.container6 .users8{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container6 .users8 #users8 img{
+    display: flex;
+    width: 35px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.container6 .users8 #texto8{
+    margin-top: 12px;
+    margin-right: 75px;
+}
+
+.container6 .users8 #texto8 .vegetta777{
+    color: rgb(222, 222, 227);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.container6 .users8 #texto8 .vegetta7771{
+    color: rgb(173, 173, 184);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.container6 .users8 #punto-rojo8{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.container6 .users8 #punto-rojo8 .punto-rojo7{
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.container6 .users8 #punto-rojo8 .vegetta7772{
+    color: rgb(222, 222, 227);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 15px;
+}
+
+
+section{
+    height: 400px;
+    background-color: #0E0E10;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    
+}
+
+section div{
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+section div:nth-child(1){
+    width: 550px;
+    height: 250px;
+    background-color: green;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+}
+
+section div img:nth-child(1){
+    width: 100%;
+    height: auto;
+}
+
+section div:nth-child(2){
+    width: 450px;
+    height: 70%;
+    background-color: #18181B;
+    transform-origin: 50% 50%;
+    transform: translate(5%, -50%);
+    transition: all 0.3s linear;
+    margin-top: 30px;
+    z-index: 3;
+}
+
+section div:nth-child(2):hover{
+    background-color: brown;
+    transform: translate(0%, -50%) scale(1.05)
+}
+
+section div:nth-child(3){
+    width: 450px;
+    height: 250px;
+    background-color: rgb(117, 0, 128);
+    transform-origin: 50% 50%;
+    transform: translate(59%, -50%);
+    transition: all 0.3s linear;
+    margin-top: 30px;
+    z-index: 2;
+}
+
+
+section div:nth-child(3):hover{
+    background-color: brown;
+    transform: translate(50%, -50%) scale(1.05)
+}
+
+section div:nth-child(4){
+    width: 450px;
+    height: 250px;
+    background-color: rgb(128, 9, 0);
+    transform-origin: 50% 50%;
+    transform: translate(-100%, -50%);
+    transition: all 0.3s linear;
+    margin-top: 30px;
+    z-index: 3;
+}
+
+section div:nth-child(4):hover{
+    background-color: brown;
+    transform: translate(-100%, -50%) scale(1.05)
+}
+
+section div:nth-child(5){
+    width: 400px;
+    height: 200px;
+    background-color: rgb(0, 30, 128);
+    transform-origin: 50% 50%;
+    transform: translate(-160%, -50%);
+    transition: all 0.3s linear;
+    margin-top: 20px;
+    z-index: 2;
+}
+
+section div:nth-child(5):hover{
+    background-color: brown;
+    transform: translate(-150%, -50%) scale(1.05)
+}
+
+section div:hover{
+    background-color: brown;
+}
+
+body .envivo{
+    background-color: #EB0400;
+    position: absolute;
+    margin-left: 1015px;
+    margin-top: 85px;
+    width: 65px;
+    padding: 0px;
+    border-radius: 6px;
+    z-index: 5;
+}
+
+body .envivo p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: rgb(239, 239, 241);
+}
+
+body .flecha{
+    margin-left: 550px;
+    margin-top: 220px;
+    position: absolute;
+    z-index: 6;
+}
+
+body .flecha img{
+    width: 15px;;
+}
+
+body .flecha2{
+    z-index: 6;
+    position: absolute;
+    margin-left: 2080px;
+    margin-top: 220px;
+}
+
+body .flecha2 img{
+    width: 15px;
+}
+
+body .users9{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    background-color: #18181B;
+    width: 200px;
+    height: 280px;
+    margin-top: 90px;
+    margin-left: 1555px;
+    flex-wrap: wrap;
+    z-index: 7;
+}
+
+body .users9 #users9 img{
+    display: flex;
+    width: 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+body .users9 #texto9{
+    margin-top: 10px;
+}
+
+body .users9 #texto9 .rivers{
+    color: rgb(222, 222, 227);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+body .users9 #texto9 .rivers1{
+    color: rgb(173, 173, 184);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+body .users9 #texto9 .rivers2{
+    color: rgb(222, 222, 227);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 15px;
+}
+
+body .users9 #descripcion .rivers3{
+    color: rgb(173, 173, 184);
+    background-color: #35353B;
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-left: 10px;
+}
+
+body .users9 #descripcion .rivers4{
+    color: rgb(239, 239, 241);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+.main{
+    position: relative;
+    background-color: #0E0E10;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
+    row-gap: 150px;
+    margin-left: 150px;
+    flex-wrap: wrap;
+    padding-top: 500px;
+    padding-left: 100px;
+}
+
+.main div{
+    background-color: #1F1F23;
+    width: 350px;
+    height: 250px;
+}
+
+.main div img{
+    width: 100%;
+}
+
+.main .categoria{
+    background-color: green;
+    width: 150px;
+    height: 250px;
+    
+}
+
+
+.footer{
+    background-color: #451093;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    left: 0;
+    z-index: 8;
+}
+
+footer img{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.footer .parrafo-footer{
+    display: flex;
+}
+
+.footer .parrafo-footer .parte1{
+    color: rgb(255, 255, 255);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-top: 19px;
+}
+
+.footer .parrafo-footer .parte2{
+    color: rgb(255, 255, 255);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 19px;
+    margin-left: 10px;
+}
+
+.footer .boton{
+    margin-left: 1550px;
+    margin-top: 16px;
+}
+
+.footer .boton button{
+    padding: 5px;
+    width: 100px;
+    color: rgb(0, 0, 0);
+    font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    border-radius: 3px;
+    border: 0;
+}

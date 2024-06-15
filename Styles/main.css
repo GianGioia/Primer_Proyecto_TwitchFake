@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 400px;
+    background-color: gray;
+    position: relative;
+}
+
+section div{
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+section div:nth-child(1){
+    width: 450px;
+    height: 250px;
+    background-color: green;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+}
+
+section div:nth-child(2){
+    width: 400px;
+    height: 200px;
+    background-color: rgb(128, 115, 0);
+    transform-origin: 50% 50%;
+    transform: translate(0%, -50%);
+    transition: all 0.3s linear;
+    z-index: 3;
+}
+
+section div:nth-child(2):hover{
+    background-color: brown;
+    transform: translate(0%, 50%) scale(1.05)
+}
+
+section div:nth-child(3){
+    width: 350px;
+    height: 150px;
+    background-color: rgb(117, 0, 128);
+    transform: translate(50%, -50%);
+    z-index: 2;
+}
+
+section div:nth-child(4){
+    width: 400px;
+    height: 200px;
+    background-color: rgb(128, 9, 0);
+    transform: translate(-100%, -50%);
+    z-index: 3;
+}
+
+section div:nth-child(5){
+    width: 350px;
+    height: 150px;
+    background-color: rgb(0, 30, 128);
+    transform: translate(-150%, -50%);
+    z-index: 2;
+}
+
+main{
+    background-color: red;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
+}
+
+main div{
+    background-color: green;
+    width: 350px;
+    height: 250px;
+}

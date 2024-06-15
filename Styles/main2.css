@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*main{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 10px;
+}
+
+main div{
+    background-color: green;
+    width: 100%;
+    height: 200px;
+}*/
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: gray;
+    z-index: 3;
+}
+
+aside{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background-color: red;
+    z-index: 2;
+}
+
+main{
+    height: 100vh;
+    background-color: yellow;
+}
+
+main div{
+    background-color: aqua;
+}
